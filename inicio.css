@@ -112,19 +112,53 @@ nav a.ativo {
 }
 .Parte3 {
    height: 100vh;
-   display: flex;
-   justify-content: center;
-   align-items: center;
+   background-color: #121212;
+   padding: 60px 20px;
+   font-family: arial, sans-serif;
+}
+.texto h1{
+    color: #c98a5d;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+}
+.texto h2 {
+    color: #ffffff;
+    font-size: 32px;
+    margin-bottom: 40px;
 
 }
-
+.cards-container{
+display: flex;
+gap: 20px;
+justify-content: space-between;
+}
+.texto {
+    flex-direction: column;
+    width: 35%;
+}
 .Card {
-    padding: 20px;
-    background-color: rgba(255,255,255,0.1);
-    border: #f5f5f5;
-    justify-content: center;
-    align-items: center;
-    margin: 0.15px;
+    background-color: #1a1a1a;
+    padding: 30px 25px;
+    border-radius: 8px;
+    flex: 1;
+}
+
+.Card span{
+    font-size: 24px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.Card p{
+    color: #a0a0a0;
+    line-height: 1.6;
+    font-size: 15px;
+}
+.Card h3 {
+    color: #ffffff;
+    font-size: 18px;
+    margin-bottom: 12px;
 }
 
 .btn {
