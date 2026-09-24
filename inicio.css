@@ -24,11 +24,16 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
 }
 
 header {
-    background-color: var(--bg-header);
-    padding: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 5%;
+    z-index: 10;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -79,7 +84,7 @@ nav a.ativo {
     flex:auto;
     padding: 0 10%;
     background-color: var(--bg-secao);
-    background:url(Barbearia.jpeg);
+    background:url(Barbearia.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -90,20 +95,50 @@ nav a.ativo {
 .Parte2 {
     padding: 0 10%;
     height: 100vh;
-    background-color: var(--bg-secao);
     background-size: cover;
     background:url(Ambiente.jpg);
     background-repeat: no-repeat;
-    background-position: center;
-    background-position: center;
     background-size: cover;
-    flex-direction: column;
-    justify-content: center;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+
+}
+
+.textos {
+    background-color: rgb(0, 0, 0, 0.75);
+    padding: 40px;
+    border-radius: 8px;
+    max-width: 600px;
+}
+
+.textos h1 {
+    color: #ffffff;
+    font-size: 32px;
+    margin-bottom: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.textos h2 {
+    color: #c98a5d;
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.textos p {
+    color: #e0e0e0;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
 }
 
 .Parte1 h2 {
     font-size: 2.5rem;
-    color: white
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    
 }
 
 .Parte1 p {
@@ -111,27 +146,40 @@ nav a.ativo {
     margin-bottom: 1.875rem;
 }
 .Parte3 {
-   height: 100vh;
-   background-color: #121212;
-   padding: 60px 20px;
-   font-family: arial, sans-serif;
+    background:url(Fundo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding: 60px 20px;
+    font-family: arial, sans-serif;
+}
+
+.container-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 .texto h1{
     color: #c98a5d;
     font-size: 14px;
     letter-spacing: 1px;
     margin-bottom: 8px;
+    font-family: 'Montserrat', sans-serif;
 }
 .texto h2 {
     color: #ffffff;
     font-size: 32px;
     margin-bottom: 40px;
+    font-family: 'Montserrat', sans-serif;
 
 }
 .cards-container{
-display: flex;
-gap: 20px;
-justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
 }
 .texto {
     flex-direction: column;
@@ -145,7 +193,8 @@ justify-content: space-between;
 }
 
 .Card span{
-    font-size: 24px;
+    font-size: 45px;
+    color: #c98a5d;
     display: block;
     margin-bottom: 20px;
 }
@@ -159,6 +208,7 @@ justify-content: space-between;
     color: #ffffff;
     font-size: 18px;
     margin-bottom: 12px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .btn {
@@ -167,12 +217,14 @@ justify-content: space-between;
     padding: 0.75rem 1.5rem;
     text-decoration: none;
     border-radius: 0.375rem;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .btn2 {
     background-color: #0a0a0a;
     color: white;
     align-items: center;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .btn:hover {
@@ -180,8 +232,10 @@ justify-content: space-between;
 }
 
 footer {
-    background-color: var(--bg-header);
+    background-color: #0e0e0e;
+    color: #cccccc;
     text-align: center;
-    padding: auto;
-    border-top: 1px solid var(--cor-borda);
+    padding: 30px 20px;
+    border-top: 1px solid #c98a5d;
+    font-size: 14px;
 }
