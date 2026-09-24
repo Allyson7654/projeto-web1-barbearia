@@ -47,7 +47,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    align-items: center;
 
 }
 
@@ -101,21 +100,22 @@ nav a.ativo {
 .Parte1 {
     height: 100vh;
     text-align: justify;
-    flex:auto;
+    flex: auto;
     padding: 0 10%;
     background-color: var(--bg-secao);
-    background:url(Barbearia.jpg);
+    background: url(Barbearia.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
+
 .Parte1 h2 {
     font-size: 2.5rem;
     color: white;
     font-family: 'Montserrat', sans-serif;
-    
+
 }
 
 .Parte1 p {
@@ -127,9 +127,8 @@ nav a.ativo {
     padding: 0 10%;
     height: 100vh;
     background-size: cover;
-    background:url(Ambiente.jpg);
+    background: url(Ambiente.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
     background-position: center;
     display: flex;
     align-items: center;
@@ -167,7 +166,7 @@ nav a.ativo {
 
 
 .Parte3 {
-    background:url(Fundo.jpg);
+    background: url(Fundo.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -181,13 +180,15 @@ nav a.ativo {
     margin: 0 auto;
     padding: 0 20px;
 }
-.texto h1{
+
+.texto h1 {
     color: #c98a5d;
     font-size: 14px;
     letter-spacing: 1px;
     margin-bottom: 8px;
     font-family: 'Montserrat', sans-serif;
 }
+
 .texto h2 {
     color: #ffffff;
     font-size: 32px;
@@ -195,17 +196,21 @@ nav a.ativo {
     font-family: 'Montserrat', sans-serif;
 
 }
-.cards-container{
+
+.cards-container {
     max-width: 1200px;
-    margin: 0 auto;;
+    margin: 0 auto;
+    ;
     display: flex;
     gap: 20px;
     justify-content: space-between;
 }
+
 .texto {
     flex-direction: column;
     width: 35%;
 }
+
 .Card {
     background-color: #1a1a1a;
     padding: 30px 25px;
@@ -213,30 +218,25 @@ nav a.ativo {
     flex: 1;
 }
 
-.Card span{
+.Card span {
     font-size: 45px;
     color: #c98a5d;
     display: block;
     margin-bottom: 20px;
 }
 
-.Card p{
+.Card p {
     color: #a0a0a0;
     line-height: 1.6;
     font-size: 15px;
 }
+
 .Card h3 {
     color: #ffffff;
     font-size: 18px;
     margin-bottom: 12px;
     font-family: 'Montserrat', sans-serif;
 }
-
-
-
-
-
-
 
 footer {
     background-color: #0e0e0e;
