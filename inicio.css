@@ -27,6 +27,16 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+span {
+    color: white;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
 header {
     position: absolute;
     top: 0;
@@ -39,16 +49,6 @@ header {
     justify-content: space-between;
     align-items: center;
 
-}
-
-main {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-}
-
-span {
-    color: white;
 }
 
 .logo h1 {
@@ -78,6 +78,26 @@ nav a.ativo {
     border-bottom: 2px solid var(--cor-destaque);
 }
 
+.btn {
+    background-color: var(--cor-destaque);
+    color: #121212;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 0.375rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn2 {
+    background-color: #0a0a0a;
+    color: white;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn:hover {
+    background-color: var(--cor-destaque-hover);
+}
+
 .Parte1 {
     height: 100vh;
     text-align: justify;
@@ -90,6 +110,17 @@ nav a.ativo {
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
+.Parte1 h2 {
+    font-size: 2.5rem;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.Parte1 p {
+    font-size: 1.2rem;
+    margin-bottom: 1.875rem;
 }
 
 .Parte2 {
@@ -134,17 +165,7 @@ nav a.ativo {
     margin-bottom: 15px;
 }
 
-.Parte1 h2 {
-    font-size: 2.5rem;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    
-}
 
-.Parte1 p {
-    font-size: 1.2rem;
-    margin-bottom: 1.875rem;
-}
 .Parte3 {
     background:url(Fundo.jpg);
     background-size: cover;
@@ -211,25 +232,11 @@ nav a.ativo {
     font-family: 'Montserrat', sans-serif;
 }
 
-.btn {
-    background-color: var(--cor-destaque);
-    color: #121212;
-    padding: 0.75rem 1.5rem;
-    text-decoration: none;
-    border-radius: 0.375rem;
-    font-family: 'Montserrat', sans-serif;
-}
 
-.btn2 {
-    background-color: #0a0a0a;
-    color: white;
-    align-items: center;
-    font-family: 'Montserrat', sans-serif;
-}
 
-.btn:hover {
-    background-color: var(--cor-destaque-hover);
-}
+
+
+
 
 footer {
     background-color: #0e0e0e;
