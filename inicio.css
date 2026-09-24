@@ -103,7 +103,7 @@ nav a.ativo {
     flex: auto;
     padding: 0 10%;
     background-color: var(--bg-secao);
-    background: url(Barbearia.jpg);
+    background: url(Img_inicio/Barbearia.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -127,7 +127,7 @@ nav a.ativo {
     padding: 0 10%;
     height: 100vh;
     background-size: cover;
-    background: url(Ambiente.jpg);
+    background: url(Img_inicio/Ambiente.jpg);
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
@@ -166,7 +166,7 @@ nav a.ativo {
 
 
 .Parte3 {
-    background: url(Fundo.jpg);
+    background: url(Img_inicio/Fundo.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
