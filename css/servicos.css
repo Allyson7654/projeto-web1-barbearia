@@ -59,7 +59,7 @@ nav a.ativo {
 
 .inicio {
     height: 550px;
-    background-image: url("imagens.jpg/banner.png");
+    background-image: url(../assets/banner.png);
     border-radius: 8px;
 }
 
